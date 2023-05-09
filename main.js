@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         p.className = "bloque_list";
         p.classList.add("paragraph_nav")
 
-        let p2 = document.createElement("p");
+        let p2 = document.createElement("p");   
         p2.textContent = "productos";
         p2.className = "bloque_list2";
         p2.classList.add("paragraph_nav")
