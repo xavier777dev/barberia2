@@ -1,54 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sobre la Barbería Alura</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="menu">            
-            <h1 class="logo">
-                <img class="logo_image" src="./imagenes/logo.png" alt="">
-            </h1>
-    
-            <ul class="bloque">
-                <li class="bloque_list">home</li>
-                <li class="bloque_list2">productos</li>
-                <li class="bloque_list3">contacto</li>
-            </ul>   
-        </nav>
+    <header>
+        <h2 class="header_title text-center">Barbería Alura</h2>
     </header>
+    
+    <main class="container">
+        <img class="image" src="./img/banner.jpg" alt="banner">
 
-    <main>
-        <section class="section">
-            <div class="grid">
-                <h2>cabello</h2>
-                <img class="grid_image" src="./imagenes/cabello.jpg" alt="">
-                <p>Con tijera o máquina, a gusto del cliente</p>
-                <p class="grid_prize">$ 10.00</p>
+        <div class="principal">
+            <h2 class="text-center">Sobre la Barbería Alura</h2>
+
+            <p class="text-center">Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+    
+            <p class="paragrahp_em text-center text-center"><em>Nuestra misión es: <strong class="paragrahp_strong">"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong></em>.</p>
+    
+            <p class="text-center">
+            Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
+        </div>
+
+        <div class="diferenciales">
+            <h2 class="text-center">Diferenciales</h2>
+
+            <div class="bloque">
+                <ul class="lista_ordenada">
+                    <li>Atención personalizada a los clientes</li>
+                    <li>Espacio diferenciado</li>
+                    <li>Localización</li>
+                    <li>Profesiones calificados</li>
+                </ul>
+                
+                <div class="bloque_image">
+                    <img class="bloque_img" src="./img/diferenciales.jpg" alt="diferenciales">
+                </div>
             </div>
-            <div class="grid">
-                <h2>barba</h2>
-                <img class="grid_image" src="./imagenes/barba.jpg" alt="">
-                <p>Corte y diseño profesional de barba</p>
-                <p class="grid_prize">$ 08.00</p>
-            </div>
-            <div class="grid">
-                <h2>cabello + barba</h2>
-                <img class="grid_image" src="./imagenes/cabello+barba.jpg" alt="">
-                <p>Paquete completo de cabello y barba</p>
-                <p class="grid_prize">$ 15.00</p>
-            </div>
-        </section>
+        </div>
+
     </main>
-
-    <footer class="footer">
-        <img class="footer_image" src="./imagenes/logo-blanco.png" alt="">
-    </footer>
-
-    <script src="main.js"></script>
 </body>
 </html>

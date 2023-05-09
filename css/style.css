@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+
+/* Globales */
+h2 {
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+li { font-style: italic }
+img { width: 100% }
+
+.container {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+
+/* utilities */
+.text-center { text-align: center }
+
+
+/* Header  */
+.paragrahp_em { font-size: 2rem }
+.paragrahp_strong { color: red }
+.image {
+    background-size: cover;
+    width: 100%;
+}
+
+
+ /* principal */
+.principal {
+    background-color: #ccc;
+}
+
+
+/* diferenciales */
+.diferenciales {
+    background-color: #fff;
+    padding-bottom: 2rem;
+}
+.bloque {
+    display: flex;
+    flex-direction: column;
+}
+.lista_ordenada {
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+@media(min-width:768px) {
+    .bloque {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .bloque_image { width: 50% }
+    .bloque_img { width: 100% }
+}
